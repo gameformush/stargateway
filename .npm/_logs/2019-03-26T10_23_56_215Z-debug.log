@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@5.0.3
+3 info using node@v8.1.1
+4 verbose config Skipping project config: /home/vagrant/.npmrc. (matches userconfig)
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info lifecycle devchallenge@1.0.0~prestart: devchallenge@1.0.0
+7 silly lifecycle devchallenge@1.0.0~prestart: no script for prestart, continuing
+8 info lifecycle devchallenge@1.0.0~start: devchallenge@1.0.0
+9 verbose lifecycle devchallenge@1.0.0~start: unsafe-perm in lifecycle true
+10 verbose lifecycle devchallenge@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/home/vagrant/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+11 verbose lifecycle devchallenge@1.0.0~start: CWD: /home/vagrant
+12 silly lifecycle devchallenge@1.0.0~start: Args: [ '-c', 'make start' ]
+13 silly lifecycle devchallenge@1.0.0~start: Returned: code: 2  signal: null
+14 info lifecycle devchallenge@1.0.0~start: Failed to exec start script
+15 verbose stack Error: devchallenge@1.0.0 start: `make start`
+15 verbose stack Exit status 2
+15 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:283:16)
+15 verbose stack     at emitTwo (events.js:125:13)
+15 verbose stack     at EventEmitter.emit (events.js:213:7)
+15 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+15 verbose stack     at emitTwo (events.js:125:13)
+15 verbose stack     at ChildProcess.emit (events.js:213:7)
+15 verbose stack     at maybeClose (internal/child_process.js:897:16)
+15 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:208:5)
+16 verbose pkgid devchallenge@1.0.0
+17 verbose cwd /home/vagrant
+18 verbose Linux 3.2.0-126-virtual
+19 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+20 verbose node v8.1.1
+21 verbose npm  v5.0.3
+22 error code ELIFECYCLE
+23 error errno 2
+24 error devchallenge@1.0.0 start: `make start`
+24 error Exit status 2
+25 error Failed at the devchallenge@1.0.0 start script.
+25 error This is probably not a problem with npm. There is likely additional logging output above.
+26 verbose exit [ 2, true ]
